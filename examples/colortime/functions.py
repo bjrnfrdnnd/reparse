@@ -21,7 +21,8 @@ def color_time_simple(Color=None, Time=None):
 
     return Color, Time
 
-color_time = color_time_nice()
+color_time = color_time_nice
+
 # --------------- Function list ------------------
 # This is the dictionary that is used by the Reparse
 # expression builder. The key is the same value used in the patterns.yaml
