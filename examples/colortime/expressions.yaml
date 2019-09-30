@@ -20,7 +20,7 @@ Time:
 
 Color:
     Basic Color:
-        Expression: (Orange|Green)
+        Expression: \b(Orange|(?:Green){e<=1})\b
         Matches: Orange | Green
         Non-Matches: Blue
         Groups:
