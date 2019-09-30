@@ -9,7 +9,7 @@ from datetime import time
 
 
 # --------------- Functions ------------------
-def color_time(Color=None, Time=None):
+def color_time_old(Color=None, Time=None):
     Color, Hour, Period = Color[0], int(Time[0]), Time[1]
     if Period == 'pm':
         Hour += 12
@@ -17,6 +17,9 @@ def color_time(Color=None, Time=None):
 
     return Color, Time
 
+def color_time(Color=None, Time=None):
+
+    return Color, Time
 # --------------- Function list ------------------
 # This is the dictionary that is used by the Reparse
 # expression builder. The key is the same value used in the patterns.yaml
